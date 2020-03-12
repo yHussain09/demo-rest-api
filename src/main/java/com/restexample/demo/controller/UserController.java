@@ -18,6 +18,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 @RestController
 //@RequestMapping("/api/v1")
+@RequestMapping("/api")
 public class UserController {
 
     private final UserRepository userRepository;
